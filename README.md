@@ -20,20 +20,20 @@ sudo apt-get install python-numpy python-matplotlib python-scipy
 ```
 ## Usage
 1. "Get th'n all" program
--- Change the input file `sample/sample.wav`
--- Change the impulse responce file `sample/ir.wav`
--- Run the python program `python get_th_n_all.py` in a terminal (this may take a while)
--- Open the folder `sample/convolutions/`
--- This is it! You get all your rooms in rooms!
+- Change the input file `sample/sample.wav`
+- Change the impulse responce file `sample/ir.wav`
+- Run the python program `python get_th_n_all.py` in a terminal (this may take a while)
+- Open the folder `sample/convolutions/`
+- This is it! You get all your rooms in rooms!
 2. "Get what you want" program
--- Change the input file `sample/sample.wav`
--- Change the impulse responce file `sample/ir.wav`
--- Set the `nConvol` variable in order to set the number of "room in room"
--- Run the python program `python convol_generator.py` in a terminal (this may take a while)
--- Run the python program `python getNSampleConvol.py` in a terminal (this may take a while)
--- In the folder `sample/` you get two files : `sample_0.wav` and `sample_N.wav`
---- `sample_0.wav` is the original one (compressed on all the dynamic)
---- `sample_N.wav` is the N-th pass in a room 
+- Change the input file `sample/sample.wav`
+- Change the impulse responce file `sample/ir.wav`
+- Set the `nConvol` variable in order to set the number of "room in room"
+- Run the python program `python convol_generator.py` in a terminal (this may take a while)
+- Run the python program `python getNSampleConvol.py` in a terminal (this may take a while)
+- In the folder `sample/` you get two files : `sample_0.wav` and `sample_N.wav`
+    - `sample_0.wav` is the original one (compressed on all the dynamic)
+    - `sample_N.wav` is the N-th pass in a room 
 ## Note
 The `sample.wav` used in demo is from [learnopengl.com](https://learnopengl.com/)
 And is downlodable in full version [there](https://learnopengl.com/audio/in-practice/breakout/breakout.mp3)
